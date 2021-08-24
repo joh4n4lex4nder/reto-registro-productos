@@ -1,0 +1,18 @@
+{
+    "productos": [
+        {
+            "nombre": "Sudadera",
+            "precio": "12.000",
+            "marca": "Adidas",
+            "descripcion": "Producto de prueba",
+            "categoria": [
+                "hombre",
+                "mujer",
+                "niños",
+                "niña"
+            ],
+            "imagen": "http://placeimg.com/640/480/people",
+            "id": 1
+        }
+    ]
+}
