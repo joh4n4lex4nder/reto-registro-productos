@@ -1,0 +1,144 @@
+{
+    "productos": [
+        {
+            "nombre": "Sudadera",
+            "precio": "12.000",
+            "marca": "Adidas",
+            "descripcion": "Producto de prueba",
+            "categoria": [
+                "hombre",
+                "mujer",
+                "niños",
+                "niña"
+            ],
+            "imagen": "http://placeimg.com/640/480/people",
+            "id": 1
+        },
+        {
+            "nombre": "Camiseta",
+            "precio": "89.000",
+            "marca": "Nike",
+            "descripcion": "Producto de prueba",
+            "categoria": [
+                "hombre",
+                "mujer",
+                "niños",
+                "niña"
+            ],
+            "imagen": "http://placeimg.com/640/480/people",
+            "id": 2
+        },
+        {
+            "nombre": "Pantaloneta",
+            "precio": "33.000",
+            "marca": "Underwear",
+            "descripcion": "Producto de prueba",
+            "categoria": [
+                "hombre",
+                "mujer",
+                "niños",
+                "niña"
+            ],
+            "imagen": "http://placeimg.com/640/480/people",
+            "id": 3
+        },
+        {
+            "nombre": "Licra",
+            "precio": "12.000",
+            "marca": "Adidas",
+            "descripcion": "Producto de prueba",
+            "categoria": [
+                "hombre",
+                "mujer",
+                "niños",
+                "niña"
+            ],
+            "imagen": "http://placeimg.com/640/480/people",
+            "id": 1
+        },
+        {
+            "nombre": "Short de entrenamiento",
+            "precio": "12.000",
+            "marca": "Adidas",
+            "descripcion": "Producto de prueba",
+            "categoria": [
+                "hombre",
+                "mujer",
+                "niños",
+                "niña"
+            ],
+            "imagen": "http://placeimg.com/640/480/people",
+            "id": 1
+        },
+        {
+            "nombre": "Buzo",
+            "precio": "12.000",
+            "marca": "Adidas",
+            "descripcion": "Producto de prueba",
+            "categoria": [
+                "hombre",
+                "mujer",
+                "niños",
+                "niña"
+            ],
+            "imagen": "http://placeimg.com/640/480/people",
+            "id": 1
+        },
+        {
+            "nombre": "Rompevientos",
+            "precio": "12.000",
+            "marca": "Adidas",
+            "descripcion": "Producto de prueba",
+            "categoria": [
+                "hombre",
+                "mujer",
+                "niños",
+                "niña"
+            ],
+            "imagen": "http://placeimg.com/640/480/people",
+            "id": 1
+        },
+        {
+            "nombre": "Pantalón corto",
+            "precio": "12.000",
+            "marca": "Adidas",
+            "descripcion": "Producto de prueba",
+            "categoria": [
+                "hombre",
+                "mujer",
+                "niños",
+                "niña"
+            ],
+            "imagen": "http://placeimg.com/640/480/people",
+            "id": 1
+        },
+        {
+            "nombre": "Top deportivo",
+            "precio": "12.000",
+            "marca": "Adidas",
+            "descripcion": "Producto de prueba",
+            "categoria": [
+                "hombre",
+                "mujer",
+                "niños",
+                "niña"
+            ],
+            "imagen": "http://placeimg.com/640/480/people",
+            "id": 1
+        },
+        {
+            "nombre": "Esqueleto",
+            "precio": "12.000",
+            "marca": "Adidas",
+            "descripcion": "Producto de prueba",
+            "categoria": [
+                "hombre",
+                "mujer",
+                "niños",
+                "niña"
+            ],
+            "imagen": "http://placeimg.com/640/480/people",
+            "id": 1
+        }
+    ]
+}
