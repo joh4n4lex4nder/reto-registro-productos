@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="./spectre/spectre.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./spectre/spectre-exp.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./spectre/spectre-icons.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/Index.css" />
+    <title>Registro</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <section class="navbar-section">
+        <a href="#" class="btn btn-link">Shop clothing</a>
+      </section>
+      <section class="navbar-center">
+        <!-- centered logo or brand -->
+        <img src="./styles/img/shoes.gif" alt="" width="40px" srcset="">
+      </section>
+      <section class="navbar-section">
+        <a href="#" class="btn btn-link">Twitter</a>
+        <a href="#" class="btn btn-link">GitHub</a>
+      </section>
+    </header>
+
+    <div class="container">
+      <form id="formulario">
+        <label class="form-label" for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="nameusers"
+          class="form-input input"
+        />
+
+        <label class="form-label" for="Password">Password</label>
+        <input
+          type="password"
+          name="Password"
+          id="Password"
+          class="form-input input"
+        />
+        <div class="centerbtn">
+           <input type="button" value="log in" id="Send" class="btnSend" /> 
+        </div>
+        
+        
+        <div class="warning">
+          <span id="warning"></span>
+        </div>
+        <div class="boxRegister">
+            <a id="LinkRegister" class="LinkRegister">Register</a>
+        </div>
+        </div>
+      </form>
+    </div>
+
+    <!--Modals-->
+    <div class="modal" id="modal-id">
+      <a href="#close" class="modal-overlay" aria-label="Close"></a>
+      <div class="modal-container">
+        <div class="modal-header">
+          <a
+            href="#close"
+            class="btn btn-clear float-right"
+            aria-label="Close"
+            onclick="active()"
+          ></a>
+
+          <div class="modal-title h5">Registro</div>
+        </div>
+        <div class="modal-body">
+          <div class="content">
+              <!--Agregar el contenido aqui-->
+            <label class="form-label" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="NameRegister"
+              class="form-input input"
+            />
+
+            <label class="form-label" for="Password">Password</label>
+            <input
+              type="password"
+              name="Password"
+              id="PasswordRegister"
+              class="form-input input"
+            />
+          </div>
+
+          <input type="button" value="Register" id="Register" class="btnRegister" />
+          
+        </div>
+        <div class="modal-footer">
+            <p id="error">Hecho por Damien <img src="styles/img/Ghost.gif" alt="" width="30px"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<script src="./scripts/form.js"></script>-->
+    <script src="./scripts/usuarios.js"></script>
+  </body>
+</html>
