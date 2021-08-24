@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./spectre/spectre.min.css">
+    <link rel="stylesheet" href="./spectre/spectre-exp.min.css">
+    <link rel="stylesheet" href="./spectre/spectre-icons.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+  <header class="navbar">
+    <section class="navbar-section">
+      <a href="..." class="navbar-brand mr-2">Example</a>
+      <a href="..." class="btn btn-link">Docs</a>
+      <a href="..." class="btn btn-link">GitHub</a>
+    </section>
+    <section class="navbar-section">
+      <div class="input-group input-inline">
+        <input class="form-input" type="text" placeholder="search">
+        <button class="btn btn-primary input-group-btn">Search</button>
+      </div>
+    </section>
+  </header>
+
+    <div class="container" id="active">
+        <div class="info-container">
+          
+            <div class="article-container">
+                <h1>Sword Fin</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Molestias mollitia sint eligendi accusamus atque doloremque totam esse nisi eius eum!
+                </p>
+            </div>
+
+        </div>
+
+     
+            
+        <div class="cardList" id="items">
+            
+        </div>
+    
+        <template id="template-card" >
+                <div class="card">
+                            <h3></h3>
+                        <div class="img">
+                            <img src="" onclick="modalActive()" id="makeover" class="makeover"></img>
+                            <p></p>
+                            <span></span>
+                         <label id="like"></label>
+                        </div>
+                    </div>
+
+        </template>
+        
+    </div>
+
+    <div class="modal modal-sm" id="modal-id">
+      <a href="#close" class="modal-overlay" aria-label="Close"></a>
+      <div class="modal-container">
+        <div class="modal-header">
+          <a href="#close" onclick="modalActive()" class="btn btn-clear float-right" aria-label="Close"></a>
+          <div class="modal-title h5" id="modal-title"></div>
+        </div>
+        <div class="modal-body">
+          <div class="content">
+            <img src="" alt="" srcset="" id="modal-img" width="150px">
+            <p id="item-description"></p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          Sueño 
+        </div>
+      </div>
+    </div>
+  
+    <script src="./script/addItems.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

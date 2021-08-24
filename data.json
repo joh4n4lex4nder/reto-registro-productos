@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Scarlet la Espada Dorada de Finn",
+    "image": "./images/sword_1.png",
+    "info": "era la espada principal de Finn. Es una espada de doble filo hecha de oro, mango negro con un vendaje gris y al final del mango, una gema roja."
+  },
+  {
+    "id": 2,
+    "name": "Pocion de Salud",
+    "image": "./images/Potion.png",
+    "info": "Las Pociones de Salud son una recompensa disponible en la Tienda de Artículos a un precio de 25 monedas de oro. Cada una de estas pociones recupera de forma instantánea 15 Puntos de Vida (PV) cuando se compra."
+  },
+  {
+    "id": 3,
+    "name": "Salud",
+    "image": "./images/Heart.gif",
+    "info": " la salud o los puntos de vida de un personaje u objeto es un parámetro que controla el estado de salud, de operatividad o de integridad física en el que se encuentran dicho personaje u objeto."
+  },
+  {
+    "id": 4,
+    "name": "Estaciones",
+    "image": "./images/Tree.gif"
+  },
+  {
+    "id": 5,
+    "name": "Slime",
+    "image": "./images/Slime.gif"
+  },
+  {
+    "id": 6,
+    "name": "Ghost",
+    "image": "./images/Ghost.gif"
+  }
+]
